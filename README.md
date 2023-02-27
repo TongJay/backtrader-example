@@ -1,5 +1,3 @@
-pip3 install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
-
 ### 升级pip
 
 ```shell
@@ -16,4 +14,9 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 ```shell
 pip install backtrader[plotting]
+```
+
+### AKShare数据源
+```shell
+pip install akshare
 ```
